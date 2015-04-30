@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Creacion y manipulacion objetos JS mirar codigo y consola</div>
+        <a href="../index.html">Home</a>
+        <script>
+            var test = {
+        nombres: ["david", "natalia","maria"],
+        numeros: ["uno","dos","tres"],
+        ciudades:[{
+            espana:["madrid", "barcelona"],
+            francia:["Paris", "Lion"]
+        }]
+
+    }
+    test.nacionalidad = "Española";
+    test.nombres.push("Helo") ;
+    //test.ciudades.push("italia");
+    test.ciudades[0].italia=["Roma","Milan"];
+    test.ciudades.push({});
+    test.ciudades[1].chile=["Concepcion","Santiago"];
+    test.ciudades[1].peru=["Quito","Cusco"];
+    console.log(test.ciudades);
+        </script>
+    </body>
+</html>
